@@ -62,29 +62,6 @@ Backend: PHP (Core business logic and rule-based scheduler)
 
 Database: MySQL
 
-🧩 Folder Structure
-├── logo/                     # Assets (logos, icons)
-├── admin.php                 # Admin dashboard
-├── auth.php                  # Authentication logic
-├── config.php                # Database configuration
-├── create_admin.php          # Admin creation script
-├── create_task.php           # Add new task
-├── dashboard.php             # User dashboard view
-├── database.sql              # MySQL schema
-├── delete_task.php           # Task deletion
-├── delete_user.php           # User deletion (admin)
-├── edit.php                  # Edit existing task
-├── index.php                 # Landing page
-├── login.php                 # User login page
-├── logout.php                # Logout functionality
-├── register.php              # New user registration
-├── schedule.php              # Scheduling page
-├── schedule_engine.php       # Rule-based scheduling logic
-├── statistics.php            # Task completion statistics
-├── tasks.php                 # View all tasks
-├── toggle_status.php         # Mark task as complete/incomplete
-├── update_task.php           # Update existing task
-
 🧠 Rule-Based Scheduling Logic
 
 The scheduling engine in schedule_engine.php applies predefined conditions to recommend optimal task times:
